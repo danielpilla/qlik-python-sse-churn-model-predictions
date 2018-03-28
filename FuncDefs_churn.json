@@ -1,0 +1,15 @@
+{
+    "Functions" : [
+        {
+            "Id" : 0,
+            "Name" : "ModelPredict",
+            "Type" : 2,
+            "ReturnType": 1,
+            "Params" : {
+            		"ModelName" : 0,
+            		"Columns" : 0,
+            		"Data" : 0
+                }
+        }
+    ]
+}
