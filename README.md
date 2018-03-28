@@ -23,6 +23,7 @@
 - [Copy the Package Contents and Import Examples](#copy-the-package-contents-and-import-examples)
 - [Prepare And Start Services](#prepare-and-start-services)
 - [Leveraging Existing Models and Making Predictions from Qlik](#leveraging-existing-models-and-making-predictions-from-qlik)
+- [Configure your SSE as a Windows Service](#configure-your-sse-as-a-windows-service)
 
  
 ## PREPARE YOUR PROJECT DIRECTORY
@@ -135,3 +136,14 @@ $ python ExtensionService_churn.py
 
 ![QV Sheet 2](https://s3.amazonaws.com/dpi-sse/qlik-python-sse-churn-model-predictions/QVChurn2.png)
  
+## CONFIGURE YOUR SSE AS A WINDOWS SERVICE
+
+Using NSSM is my personal favorite way to turn a Python SSE into a Windows Service. You will want to run your SSEs as services so that they startup automatically and run in the background.
+1. The **Path** needs to be the location of your desired Python executable. If you've followed my guide and are using a virtual environment, you can find that under 'C:\Users\\{USERNAME}\Envs\QlikSenseAAI\Scripts\python.exe'.
+2. the **Startup directory** needs to be the parent folder of the extension service. Depending on what guide you are following, the folder needs to contain the '_\_main\_\_.py' file or the 
+'ExtensionService_{yourservicename).py' file.
+3. The **Arguments** parameter is then just the name of the file that you want Python to run. Again, depending on the guide, that will either be the '\_\_main\_\_.py' file or the 'ExtensionService_{yourservicename).py' file.
+
+**Example:**
+
+![ServiceExample](https://s3.amazonaws.com/dpi-sse/PythonAsAService.png)
