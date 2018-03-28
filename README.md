@@ -7,7 +7,7 @@
 
 ## REQUIREMENTS
 
-- **Assuming prerequisite: [Python with Qlik Sense AAI – Environment Setup](https://www.dropbox.com/s/dhmd3vm7oqurn2m/DPI%20-%20Qlik%20Sense%20AAI%20and%20Python%20Environment%20Setup.pdf?dl=0)**
+- **Assuming prerequisite: [Python with Qlik Sense AAI – Environment Setup](https://s3.amazonaws.com/dpi-sse/DPI+-+Qlik+Sense+AAI+and+Python+Environment+Setup.pdf)**
 	- This is not mandatory and is intended for those who are not as familiar with Python to setup a virtual environment. Feel free to follow the below instructions flexibly if you have experience.
 - Qlik Sense June 2017+
 - QlikView November 2017+
@@ -93,7 +93,7 @@ $ pip install scipy
 1. Now we want to setup our directions service and app. Let’s start by copying over the contents of the example
     from this package to the ‘..\QlikSenseAAI\Churn\’ location. Alternatively you can simply clone the repository.
 2. After copying over the contents, go ahead and import the example qvf found [here](https://s3.amazonaws.com/dpi-sse/qlik-python-sse-churn-model-predictions/Churn+Predictions.qvf) or the example qvw (if using QlikView) [here](https://s3.amazonaws.com/dpi-sse/qlik-python-sse-churn-model-predictions/DPI+-+Python+Churn+Predictions.qvw).
-3. Lastly, import the *Climber KPI* extension found [here](https://github.com/ClimberAB/ClimberKPI).
+3. Lastly, import the *Climber KPI* extension found [here](https://github.com/ClimberAB/ClimberKPI) if you are using Qlik Sense.
 
 
 ## PREPARE AND START SERVICES
