@@ -73,6 +73,7 @@ $ workon QlikSenseAAI
 
 ```shell
 $ pip install grpcio
+$ python -m pip install grpcio-tools
 $ pip install numpy
 $ pip install pandas
 $ pip install sklearn
