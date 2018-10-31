@@ -76,7 +76,7 @@ $ pip install grpcio
 $ python -m pip install grpcio-tools
 $ pip install numpy
 $ pip install pandas
-$ pip install sklearn
+$ pip install scikit-learn==0.19.1
 $ pip install scipy
 ```
 
