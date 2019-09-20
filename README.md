@@ -2,7 +2,7 @@
 ### Leveraging local Random Forest, SVC, and KNN models on disk.
 #### *Example apps for Qlik Sense & QlikView*
 
-![Sheet 1](../assets/assets/qlik-python-sse-churn-model-predictions/churn-sheet-1.png)
+![Sheet 1](../assets/assets/churn-sheet-1.png?raw=true)
 
 
 ## REQUIREMENTS
@@ -129,13 +129,13 @@ $ python ExtensionService_churn.py
 	- On the dashboard, you are required to select a single Model, at which poin tthe data is sent to Python, and the predictions are returned. These returned predictions are then used in many visualizations to calculate statistical accuracy.
 	- On the Challenger Models sheet, overall scores from all models are calculated. Here, you are able to select dimensions from the panes on the left hand side to see how accuracy varies by dimension by model. 
 
-![Sheet 1](https://s3.amazonaws.com/dpi-sse/qlik-python-sse-churn-model-predictions/churn-sheet-1.png)
+![Sheet 1](../assets/assets/churn-sheet-1.png?raw=true)
 
-![Sheet 2](https://s3.amazonaws.com/dpi-sse/qlik-python-sse-churn-model-predictions/churn-sheet-2.png)
+![Sheet 2](../assets/assets/churn-sheet-2.png?raw=true)
 
-![QV Sheet 1](https://s3.amazonaws.com/dpi-sse/qlik-python-sse-churn-model-predictions/QVChurn.png)
+![QV Sheet 1](../assets/assets/QVChurn.png?raw=true)
 
-![QV Sheet 2](https://s3.amazonaws.com/dpi-sse/qlik-python-sse-churn-model-predictions/QVChurn2.png)
+![QV Sheet 2](../assets/assets/QVChurn2.png?raw=true)
  
 ## CONFIGURE YOUR SSE AS A WINDOWS SERVICE
 
@@ -147,4 +147,4 @@ Using NSSM is my personal favorite way to turn a Python SSE into a Windows Servi
 
 **Example:**
 
-![ServiceExample](https://s3.amazonaws.com/dpi-sse/PythonAsAService.png)
+![ServiceExample](../assets/assets/PythonAsAService.png?raw=true)
