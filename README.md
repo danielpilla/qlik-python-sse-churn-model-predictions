@@ -2,12 +2,12 @@
 ### Leveraging local Random Forest, SVC, and KNN models on disk.
 #### *Example apps for Qlik Sense & QlikView*
 
-![Sheet 1](https://s3.amazonaws.com/dpi-sse/qlik-python-sse-churn-model-predictions/churn-sheet-1.png)
+![Sheet 1](../assets/assets/qlik-python-sse-churn-model-predictions/churn-sheet-1.png)
 
 
 ## REQUIREMENTS
 
-- **Assuming prerequisite: [Python with Qlik Sense AAI – Environment Setup](https://s3.amazonaws.com/dpi-sse/DPI+-+Qlik+Sense+AAI+and+Python+Environment+Setup.pdf)**
+- **Assuming prerequisite: [Python with Qlik Sense AAI – Environment Setup](../assets/assets/DPI+-+Qlik+Sense+AAI+and+Python+Environment+Setup.pdf)**
 	- This is not mandatory and is intended for those who are not as familiar with Python to setup a virtual environment. Feel free to follow the below instructions flexibly if you have experience.
 - Qlik Sense June 2017+
 - QlikView November 2017+
