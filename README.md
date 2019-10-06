@@ -94,7 +94,7 @@ $ pip install scipy
 
 1. Now we want to setup our directions service and app. Let’s start by copying over the contents of the example
     from this package to the ‘..\QlikSenseAAI\Churn\’ location. Alternatively you can simply clone the repository.
-2. After copying over the contents, go ahead and import the example qvf found [here](..assets/assets/Churn%20Predictions.qvf?raw=true) or the example qvw (if using QlikView) [here](../assets/assets/DPI%20-%20Python%20Churn%20Predictions.qvw?raw=true).
+2. After copying over the contents, go ahead and import the example qvf found [here](../assets/assets/Churn%20Predictions.qvf?raw=true) or the example qvw (if using QlikView) [here](../assets/assets/DPI%20-%20Python%20Churn%20Predictions.qvw?raw=true).
 3. Lastly, import the *Climber KPI* extension found [here](https://github.com/ClimberAB/ClimberKPI) if you are using Qlik Sense.
 
 
